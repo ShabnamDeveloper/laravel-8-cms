@@ -1,0 +1,29 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "laravel-mix": "^6.0.41",
+        "resolve-url-loader": "^5.0.0",
+        "sass": "^1.49.0",
+        "sass-loader": "^8.0.2",
+        "vue-template-compiler": "^2.6.14"
+    },
+    "dependencies": {
+        "bulma": "^0.9.3",
+        "datatables-bulma": "^1.0.1",
+        "datatables.net": "^1.11.3",
+        "datatables.net-buttons": "^1.7.1",
+        "feather-icons": "^4.26.0",
+        "flatpickr": "^4.6.3",
+        "trumbowyg": "^2.25.1",
+        "turbolinks": "^5.2.0"
+    }
+}
